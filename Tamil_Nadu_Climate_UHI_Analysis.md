@@ -1,11 +1,11 @@
 
-# 🔥 Tamil Nadu Climate and Urban Heat Island (UHI) Analysis (2000–2023)
+# Tamil Nadu Climate and Urban Heat Island (UHI) Analysis (2000–2023)
 
 This report summarizes the key findings from an in-depth analysis of long-term climate data across all districts of Tamil Nadu using NASA POWER API-derived temperature records and urban-rural classification.
 
 ---
 
-## 🌡️ General Temperature Trends
+## General Temperature Trends
 
 - **Hottest Districts**:
   - Thanjavur, Tiruvarur, Nagapattinam, Mayiladuthurai, Ramanathapuram
@@ -24,7 +24,7 @@ This report summarizes the key findings from an in-depth analysis of long-term c
 
 ---
 
-## 🏙️ Urban vs Rural Temperature Differences
+## Urban vs Rural Temperature Differences
 
 - **Urban Avg**: 26.69 °C  
 - **Rural Avg**: 26.99 °C  
@@ -35,23 +35,23 @@ This report summarizes the key findings from an in-depth analysis of long-term c
 
 ---
 
-## 📈 Statistically Significant Warming Trends (Mann-Kendall)
+## Statistically Significant Warming Trends (Mann-Kendall)
 
 | District         | Trend        | Slope (°C/year) | P-value     |
 |------------------|--------------|-----------------|-------------|
-| Thoothukudi      | Increasing   | 0.060           | 0.0004 ✅ |
-| Tenkasi          | Increasing   | 0.051           | 0.0013 ✅ |
-| Virudhunagar     | Increasing   | 0.047           | 0.0106 ✅ |
-| Kanniyakumari    | Increasing   | 0.046           | 0.0005 ✅ |
-| Tirunelveli      | Increasing   | 0.046           | 0.0005 ✅ |
-| Ramanathapuram   | Increasing   | 0.045           | 0.0031 ✅ |
-| Nagapattinam     | Increasing   | 0.015           | 0.0106 ✅ |
+| Thoothukudi      | Increasing   | 0.060           | 0.0004  |
+| Tenkasi          | Increasing   | 0.051           | 0.0013  |
+| Virudhunagar     | Increasing   | 0.047           | 0.0106  |
+| Kanniyakumari    | Increasing   | 0.046           | 0.0005  |
+| Tirunelveli      | Increasing   | 0.046           | 0.0005  |
+| Ramanathapuram   | Increasing   | 0.045           | 0.0031  |
+| Nagapattinam     | Increasing   | 0.015           | 0.0106  |
 
-🧠 Southern districts show **stronger evidence of climate change**.
+Southern districts in the state of Tamil Nadu show **stronger evidence of climate change**.
 
 ---
 
-## 📊 UHI (Urban Heat Island) Findings
+##  UHI (Urban Heat Island) Findings
 
 - **Monthly Urban-Rural Anomaly Heatmap**:
   - Strongest in **March–May**
@@ -63,7 +63,7 @@ This report summarizes the key findings from an in-depth analysis of long-term c
 
 ---
 
-## 🗺️ Spatial Mapping & Seasonal Patterns
+## Spatial Mapping & Seasonal Patterns
 
 - **Summer Avg Temperature Map**:
   - Delta and southern inland districts are hottest
@@ -77,7 +77,7 @@ This report summarizes the key findings from an in-depth analysis of long-term c
 
 ---
 
-## 🧪 Statistical Tests Summary
+## Statistical Tests Summary
 
 - **T-Test**: Urban vs Rural temperatures are statistically different
 - **ANOVA**: Seasonal variation across districts is significant
@@ -85,7 +85,7 @@ This report summarizes the key findings from an in-depth analysis of long-term c
 
 ---
 
-## ✅ Summary
+## Summary
 
 - **Ramanathapuram, Tirunelveli, Thoothukudi, Virudhunagar**: High-risk zones
 - **Urban areas show seasonal heating patterns**, though geography influences intensity
@@ -95,6 +95,6 @@ This report summarizes the key findings from an in-depth analysis of long-term c
 
 **Next Steps**:
 - Explore humidity and radiation impacts
-- Add air quality overlay (if available)
+- Add air quality overlay
 - Build interactive dashboard
 
